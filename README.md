@@ -58,6 +58,57 @@ The app follows a domain-driven architecture pattern:
    ./gradlew assembleDebug
    ```
 
+## Deployment
+
+This app is distributed via **Firebase App Distribution** for easy testing and deployment without app store approval.
+
+### For Developers
+
+**Build and distribute:**
+```bash
+# Build release APK
+./gradlew assembleRelease
+
+# Upload to Firebase App Distribution via console
+# https://console.firebase.google.com/project/mldetection-android/appdistribution
+```
+
+**Quick deployment workflow:**
+1. Make your changes and test locally
+2. Build release APK: `./gradlew assembleRelease`
+3. Upload APK to Firebase console
+4. Add tester emails and distribute
+5. Testers get email with download link
+
+### For Testers
+
+**First-time setup:**
+1. Enable "Install from Unknown Sources" in Android settings
+2. Click the download link from Firebase email
+3. Install and grant camera permissions
+
+**Updates:**
+- You'll receive email notifications for new versions
+- Simply download and install over the existing app
+
+### Alternative Deployment Options
+
+If Firebase Distribution isn't available:
+
+**GitHub Releases:**
+```bash
+# Tag your release
+git tag v1.0.0
+git push origin v1.0.0
+
+# Upload APK to GitHub releases page
+# Share download link directly
+```
+
+**Direct APK Sharing:**
+- Build APK and share via Google Drive, email, or file transfer
+- Simpler but less organized than Firebase Distribution
+
 ## Performance Optimization
 
 ### Current Optimizations
