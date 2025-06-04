@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1056494895534",
+    "project_id": "mldetection-android",
+    "storage_bucket": "mldetection-android.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056494895534:android:cd5b692f241cda5298483f",
+        "android_client_info": {
+          "package_name": "com.example.mldetection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo_uLH9zNv8AWTb638XgLUnGQgNbXYnso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
