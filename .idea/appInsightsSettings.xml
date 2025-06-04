@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.mldetection" />
+                  <option name="mobileSdkAppId" value="1:1056494895534:android:cd5b692f241cda5298483f" />
+                  <option name="projectId" value="mldetection-android" />
+                  <option name="projectNumber" value="1056494895534" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
