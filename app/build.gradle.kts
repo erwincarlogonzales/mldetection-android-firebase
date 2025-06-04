@@ -65,7 +65,6 @@ dependencies {
 
     // Firebase
     implementation(platform("com.google.firebase:firebase-bom:33.1.1"))
-    implementation("com.google.firebase:firebase-appdistribution-ktx")
     implementation("com.google.firebase:firebase-analytics")
 
 }
