@@ -275,7 +275,7 @@ AI assistance systematically reduces defect detection capability, making it unsu
 
 ## 🏆 **Professional Demonstration**
 
-This project demonstrates mastery across multiple domains:
+This project demonstrates expertise across multiple domains:
 
 **🔬 Research Skills:**
 - Experimental design with proper controls and statistical rigor
