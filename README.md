@@ -18,7 +18,7 @@
 
 ## 🎯 **Research Impact & Significance**
 
-This dissertation project fundamentally challenges the widely-accepted belief that AI assistance universally improves human performance. Through rigorous empirical analysis of 280 controlled experiments, this research reveals that **context-dependent factors determine when AI helps versus when it hurts human performance**.
+This project fundamentally challenges the widely-accepted belief that AI assistance universally improves human performance. Through rigorous empirical analysis of 280 controlled experiments, this research reveals that **context-dependent factors determine when AI helps versus when it hurts human performance**.
 
 ### **Core Research Question**
 > *"Does AI assistance always improve human performance in object detection tasks?"*
@@ -76,7 +76,7 @@ This dissertation project fundamentally challenges the widely-accepted belief th
 
 ---
 
-## 📊 **Groundbreaking Research Findings**
+## 📊 **Research Findings**
 
 ### **🎯 The Accuracy Paradox**
 **Humans significantly outperformed AI-assisted systems in 5 out of 7 object types:**
