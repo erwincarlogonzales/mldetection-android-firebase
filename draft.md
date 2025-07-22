@@ -18,7 +18,7 @@
 
 ## 🎯 **Research Impact & Significance**
 
-This dissertation project fundamentally challenges the widely-accepted belief that AI assistance universally improves human performance. Through rigorous empirical analysis of 280 controlled experiments, this research reveals that **context-dependent factors determine when AI helps versus when it hurts human performance**.
+This project fundamentally challenges the widely-accepted belief that AI assistance universally improves human performance. Through rigorous empirical analysis of 280 controlled experiments, this research reveals that **context-dependent factors determine when AI helps versus when it hurts human performance**.
 
 ### **Core Research Question**
 > *"Does AI assistance always improve human performance in object detection tasks?"*
@@ -33,21 +33,15 @@ This dissertation project fundamentally challenges the widely-accepted belief th
 <details>
 <summary><strong>Real-time Object Detection System</strong></summary>
 
-**Strategic Platform Choice:**
-- **Android-first deployment** for maximum global accessibility (87% global market share vs 13% iOS)
-- **Developing nations focus**: Android dominates emerging markets where small businesses need cost-effective AI solutions
-- **Hardware accessibility**: Works on budget Android devices (<$200) vs premium iPhone requirements
-- **Firebase App Distribution**: Zero-cost deployment eliminating app store barriers and approval delays
-
 **Technical Implementation:**
 - **YOLO Model Integration** via ONNX Runtime for 25-50ms inference
 - **CameraX Pipeline** with real-time overlay rendering
 - **Domain-driven Architecture** with clean separation of concerns
+- **Firebase Distribution** for controlled experimental deployment
 - **CPU-optimized** for consistent cross-device performance
-- **Memory efficient**: <100MB footprint suitable for budget devices
 
 **Detection Categories:** Hardware components (screws, nuts, rivets, washers, defects)  
-**Performance Metrics:** 95%+ precision, 30+ FPS on budget hardware
+**Performance Metrics:** 95%+ precision, <100MB memory footprint, 30+ FPS
 </details>
 
 ### **2. Empirical Research Study**
@@ -82,7 +76,7 @@ This dissertation project fundamentally challenges the widely-accepted belief th
 
 ---
 
-## 📊 **Groundbreaking Research Findings**
+## 📊 **Research Findings**
 
 ### **🎯 The Accuracy Paradox**
 **Humans significantly outperformed AI-assisted systems in 5 out of 7 object types:**
@@ -151,39 +145,17 @@ AI assistance systematically reduces defect detection capability, making it unsu
 
 ---
 
-## 🛠️ **End-to-End AI Engineering Pipeline**
-
-### **Complete Cloud-Native Workflow**
-This project demonstrates comprehensive AI engineering skills through a fully accessible, cloud-based pipeline:
-
-```
-🌐 Cloud-First Development Pipeline
-├── 📊 Dataset Management (Roboflow Cloud)
-├── 🤖 Model Training (Google Colab + MLflow)
-├── 📱 Mobile Development (Android Studio + Firebase)
-├── 🔧 Testing & Validation (Real-world deployment)
-├── 📈 Data Analysis (Jupyter + Statistical Computing)
-└── 🚀 Distribution (Firebase App Distribution)
-```
-
-**Total Cost: $0** - Demonstrating how to build production AI systems using only free cloud services
+## 🛠️ **Technical Implementation Details**
 
 ### **Android Application Architecture**
 ```
-📱 Accessibility-First Mobile App
+📱 Production Mobile App
 ├── 🎯 Domain Models (BoundingBox, Constants)
 ├── 🧠 ML Inference Engine (ONNX Runtime Integration)  
 ├── 📸 Camera Pipeline (CameraX + Real-time Processing)
 ├── 🎨 UI Layer (Custom Overlay Rendering)
-├── 🔄 Lifecycle Management (Memory-Optimized)
-└── 🌍 Global Deployment (Firebase Distribution)
+└── 🔄 Lifecycle Management (Memory-Optimized)
 ```
-
-**Why Android + Firebase?**
-- **Global Accessibility**: Android dominates developing markets (90%+ in regions like Latin America, Southeast Asia)
-- **Economic Accessibility**: Works on budget devices ($50-200) vs iPhone requirements ($800+)
-- **Deployment Accessibility**: Firebase eliminates app store barriers, approval delays, and distribution costs
-- **Technology Adoption Model (TAM)**: Optimized perceived ease of use through instant deployment
 
 ### **Data Analysis Pipeline**
 ```
@@ -196,9 +168,8 @@ This project demonstrates comprehensive AI engineering skills through a fully ac
 
 ### **Key Performance Metrics**
 - **Detection Accuracy**: 95%+ precision on target classes
-- **Inference Speed**: 25-50ms per frame on budget Android devices
-- **Memory Efficiency**: <100MB RAM usage (compatible with 2GB devices)
-- **Global Scalability**: Zero-cost distribution to unlimited users
+- **Inference Speed**: 25-50ms per frame on mobile devices
+- **Memory Efficiency**: <100MB RAM usage
 - **Statistical Power**: n=20 per condition ensuring robust conclusions
 
 ---
@@ -244,35 +215,23 @@ This project demonstrates comprehensive AI engineering skills through a fully ac
 ## 📁 **Repository Structure**
 
 ```
-📂 Complete End-to-End AI Engineering Project
+📂 Complete Research Project
 ├── 📱 Android App/                    # Production mobile application
 │   ├── app/src/main/java/            # Core ML detection logic
 │   ├── app/src/main/assets/          # YOLO model & labels
-│   ├── app/google-services.json     # Firebase configuration
-│   └── Firebase App Distribution    # Zero-cost global deployment
+│   └── Firebase configuration        # Deployment pipeline
 ├── 📊 Data Analysis/                  # Empirical research study
 │   ├── data/                         # Raw experimental datasets (280 trials)
 │   ├── master_data.csv              # Consolidated results
 │   ├── data_analysis.ipynb          # Complete statistical analysis
 │   ├── statistical_test_results.csv # Significance testing results
 │   └── summary_statistics.csv       # Descriptive statistics
-├── 🤖 ML Pipeline/                    # Cloud-based model development
-│   ├── Roboflow dataset integration # Managed dataset pipeline
-│   ├── Google Colab training        # Zero-cost GPU training
-│   ├── MLflow experiment tracking   # Professional model management
-│   └── ONNX model optimization      # Mobile-optimized inference
 ├── 📋 Documentation/                 # Research methodology & findings
 │   ├── README.md                    # This comprehensive overview
 │   └── data_analysis.md             # Detailed analysis report
 └── 🔧 Scripts/                       # Data processing pipeline
     └── script.py                    # Automated data consolidation
 ```
-
-**Accessibility Engineering Highlights:**
-- **Zero Infrastructure Costs**: Entire pipeline runs on free cloud services
-- **Global Distribution**: Firebase enables instant worldwide deployment
-- **Hardware Inclusive**: Optimized for budget Android devices (2GB RAM+)
-- **No Technical Barriers**: End users need only Android phone + internet
 
 ---
 
@@ -325,18 +284,16 @@ This project demonstrates mastery across multiple domains:
 - Clear communication of complex findings to diverse audiences
 
 **💻 Technical Expertise:**
-- **End-to-end AI engineering** from concept to global deployment
-- **Cloud-native development** using free-tier services for maximum accessibility
-- **Mobile ML optimization** for resource-constrained devices
-- **Cross-platform deployment** prioritizing global reach over premium markets
-- **Cost-conscious architecture** enabling democratized AI access
+- Production-grade mobile application development
+- Real-time computer vision and ML model integration
+- Scalable data processing and analysis pipelines
+- Modern software architecture and deployment practices
 
 **🧠 Strategic Thinking:**
-- **Accessibility-first design** prioritizing global reach over premium features
-- **Economic impact consideration** in technology deployment decisions
-- **Democratization of AI** through zero-cost cloud-native architecture
-- **Market accessibility analysis** (Android vs iOS adoption in developing nations)
-- **Technology Adoption Model (TAM)** optimization for perceived ease of use
+- Identification of fundamental assumptions requiring empirical validation
+- Development of practical frameworks for technology decision-making
+- Translation of academic research into actionable business insights
+- Consideration of broader implications for AI development and deployment
 
 ---
 
@@ -361,7 +318,7 @@ This work opens several important avenues for future research and practical appl
 
 This research represents a fundamental challenge to prevailing assumptions about AI assistance and human-computer interaction. The findings have immediate practical applications for technology deployment decisions and long-term implications for how we design AI systems intended to augment human capabilities.
 
-**Contact:** [Your Email] | **LinkedIn:** [Your LinkedIn] | **Full Research Data:** Available upon request
+**LinkedIn:** [\[LinkedIn\]](https://www.linkedin.com/in/erwincarlogonzales/) | **Full Research Data:** Available upon request
 
 ---
 
