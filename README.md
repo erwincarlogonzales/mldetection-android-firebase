@@ -318,7 +318,7 @@ This work opens several important avenues for future research and practical appl
 
 This research represents a fundamental challenge to prevailing assumptions about AI assistance and human-computer interaction. The findings have immediate practical applications for technology deployment decisions and long-term implications for how we design AI systems intended to augment human capabilities.
 
-**Contact:** [Your Email] | **LinkedIn:** [Your LinkedIn] | **Full Research Data:** Available upon request
+**LinkedIn:** [\[LinkedIn\]](https://www.linkedin.com/in/erwincarlogonzales/) | **Full Research Data:** Available upon request
 
 ---
 
